@@ -1,5 +1,5 @@
 name: Hprofile_actions
-on: workflow_dispatch
+on: [workflow_dispatch,push]
 jobs:
   Testing:
     runs-on: ubuntu-latest
